@@ -1,0 +1,562 @@
+header{
+	background-image: url(./images/bg-hero-desktop.svg);
+	background-color: lightcyan;
+
+}
+
+header section div:first-child{
+	display: flex;
+	justify-content: space-between;
+}
+
+header section div .btn1{
+	text-decoration: none;
+	background-color: white;
+	color: #19334d;
+	padding: 1em 4em;
+	border-radius: 35px;
+	box-shadow: 0em 0.3em 0.5em skyblue;
+	text-transform: capitalize;
+	font-weight: bolder;
+	font-family: arial;
+	margin-top: 40px;
+}
+
+header section div .btn1:hover{
+	color: blue;
+}
+
+header section div .img1{
+	width: 12%;
+	margin-top: 50px;
+	height: 10%;
+}
+
+header section{
+	margin-left: 50px;
+	margin-right: 50px ;
+}
+
+header section .container1{
+	display: flex;
+}
+
+header section .container2{
+	flex-direction: column;
+}
+
+header section div .img2{
+	width: 90%;
+	margin-top: 40px;
+	padding-bottom: 40px;
+	position: relative;
+	left: 50px;
+
+}
+
+header section .container2 h1{
+	font-family: verdana;
+	font-size: 30px;
+	text-transform: capitalize;
+	line-height: 1.5em;
+	padding-top: 90px;
+	margin-bottom: -40px;
+	color: #19334d;
+}
+
+header section .container2 p{
+	font-family: arial;
+	width: 30em;
+	color: #19334d;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+header section div .btn2{
+	text-decoration: none;
+	text-transform: capitalize;
+	background-color: magenta ;
+	font-family: arial;
+	color: white;
+	padding: 1em 3em;
+	border-radius: 35px;
+	font-weight: bold;
+	text-align: center;
+	width: 40%;
+	margin-bottom: 100px;
+	position: relative;
+	top: -40px;
+}
+
+header section div .btn2:hover{
+	color: blue;
+}
+
+main .sec1{
+	display: flex;
+	box-shadow: 5px 3px 40px #e6f2ff;
+	border-radius: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+main .sec1 h3{
+	text-transform: capitalize;
+	font-family: arial;
+	font-size: 2em;
+}
+
+main section .con2{
+	color: #19334d;
+	padding-left: 40px;
+}
+
+main section .con3 img{
+	width: 400px;
+	height: 300px;
+	position: relative;
+	left: 100px;
+}
+
+main section .con2 p{
+	font-size: 18px;
+	font-family: arial;
+}
+
+main .sec2{
+	display: flex;
+	box-shadow: 5px 3px 40px #e6f2ff;
+	border-radius: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+main .sec2 .con4 img{
+	width: 400px;
+	height: 300px;
+}
+
+main .sec2 .con5{
+	position: relative;
+	top: 70px;
+	left: 100px;
+	font-family: arial;
+	color: #19334d;
+}
+
+main .sec2 .con5 h3{
+	text-transform: capitalize;
+	font-size: 2em ;
+}
+
+main .sec2 .con5 p{
+	font-size: 18px;
+}
+
+main .sec3{
+	display: flex;
+	box-shadow: 5px 3px 40px #e6f2ff;
+	border-radius: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+main .sec3 h3{
+	text-transform: capitalize;
+	font-family: arial;
+	font-size: 2em;
+}
+
+main section .con6{
+	color: #19334d;
+	padding-left: 40px;
+}
+
+main section .con7 img{
+	width: 400px;
+	height: 300px;
+	position: relative;
+	left: 100px;
+}
+
+main section .con6 p{
+	font-size: 18px;
+	font-family: arial;
+}
+
+main .sec4 .con8 h2{
+	font-family: arial;
+	color: #19334d;
+	text-align: center;
+	font-size: 30px;
+}
+
+main .sec4 .con9 a{
+	text-decoration: none;
+	background-color: magenta;
+	color: white;
+	font-family: arial;
+	font-weight: bolder;
+	display: block;
+	text-align: center;
+	width: 50%;
+	padding-top: 20px;
+	padding-bottom: 20px ;
+	border-radius: 35px;
+	position: relative;
+	left: 150px;
+	box-shadow: 5px 5px 3px #e6f2ff;
+}
+
+main .sec4 .con9 a:hover{
+	color: blue;
+}
+
+main .sec4{
+	/*box-shadow: 5px 3px 5px #e6f2ff;*/
+	background-color: white;
+	border-radius: 20px;
+	padding-top: 1em;
+	margin-left: 300px ;
+	margin-right: 300px ;
+	margin-top: 6em ;
+	padding-bottom: 3em;
+	position: relative;
+	top: 50px;
+	z-index: 2;
+	border: 3px solid whitesmoke;
+}
+
+footer .bigcon{
+	position: relative;
+	z-index: 1;
+}
+	
+footer{
+	background-color: #001a4d;
+	color: white;
+}
+
+.bigcon{
+	display: flex;
+}
+
+.copy{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 40px;
+}
+
+footer .bigcon{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+footer section .links{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	top: 100px;
+	left: 150px;
+	font-family: arial;
+}
+
+footer section .links .link1 ul li{
+	list-style-type: none;
+	line-height: 30px;
+}
+
+footer section .links .link1 ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+footer section .links .link2 ul li{
+	list-style-type: none;
+	line-height: 30px;
+}
+
+footer section .links .link2 ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+footer .bigcon .smallcon{
+	margin-top: 20px;
+}
+
+footer .bigcon .smallcon .location{
+	width: 20px;
+	height: 20px;
+	margin-top: 20px;
+	border-radius: 50%;
+}
+
+footer .bigcon .smallcon .call{
+	width: 20px;
+	height: 20px;
+	margin-top: 20px;
+	border-radius: 50%;
+}
+
+footer .bigcon .smallcon .email{
+	width: 20px;
+	height: 20px;
+	margin-top: 20px;
+	border-radius: 50%;
+}
+
+footer .bigcon .smallcon .fcon1{
+	display: flex;
+	justify-content: space-between;
+	width: 20em;
+}
+
+footer .bigcon .smallcon .fcon2{
+	display: flex;
+	justify-content: space-between;
+	width: 10em;
+}
+
+footer .bigcon .smallcon .fcon3{
+	display: flex;
+	justify-content: space-between;
+	width: 12em;
+}
+
+footer .bigcon .fb{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+
+footer .bigcon .tw{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+
+footer .bigcon .ig{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+
+footer .bigcon .links3{
+	position: relative;
+	top: 130px;
+	left: 300px;
+}
+
+@media screen and (max-width: 375px) {
+	header section div .btn1{
+		padding: 0.5em 2em;
+		border-radius: 20px;
+		margin-top: 40px;
+		position: relative;
+		left: 50px;
+	}
+
+	header section div .img1{
+		width: 40%;
+		margin-top: 50px;
+		height: 25%;
+		position: relative;
+		right: 20px;
+	}
+
+	header section .container2 p{
+		font-family: arial;
+		width: 17em;
+		color: #19334d;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		position: relative;
+		top: 50px;
+	}
+
+	header section div .img2{
+		width: 20em;
+		margin-top: 40px;
+		padding-bottom: 40px;
+		position: relative;
+		left: -20px;
+	}
+
+	header section div .btn2{
+		text-decoration: none;
+		text-transform: capitalize;
+		background-color: magenta ;
+		font-family: arial;
+		color: white;
+		padding: 0.2em 5em;
+		border-radius: 35px;
+		font-weight: bold;
+		text-align: center;
+		width: 40%;
+		margin-bottom: 100px;
+		position: relative;
+		top: 100px;
+		left: 20px;
+		font-size: 12px;
+	}
+
+	header section .container2{
+		flex-direction: column;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+
+	header section .container2 h1{
+		flex-direction: column;
+		font-size: 25px;
+	}
+
+	header section .container1{
+		display: flex;
+		flex-direction: column;
+	}
+
+	main .sec1 h3{
+		text-transform: capitalize;
+		font-family: arial;
+		font-size: 2em;
+		text-align: center;
+		position: relative;
+		left: -20px;
+	}
+
+	main .sec1{
+		display: flex;
+		box-shadow: 5px 3px 40px #e6f2ff;
+		border-radius: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+		flex-direction: column-reverse;
+	}
+
+	main section .con3 img{
+		width: 250px;
+		height: 200px;
+		position: relative;
+		left: 50px;
+	}
+
+	main section .con2 p{
+		font-size: 18px;
+		font-family: arial;
+		text-align: center;
+		position: relative;
+		left: -25px;
+	}
+
+	main .sec2{
+		display: flex;
+		box-shadow: 5px 3px 40px #e6f2ff;
+		border-radius: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+		flex-direction: column;
+	}
+
+	main .sec2 .con4 img{
+		width: 250px;
+		height: 200px;
+		position: relative;
+		left: 50px;
+	}
+
+	main .sec2 .con5 h3{
+		text-transform: capitalize;
+		font-size: 1.2em ;
+		text-align: center;
+		position: relative;
+		left: -15px;
+	}
+
+	main .sec2 .con5 p{
+		font-size: 13px;
+		position: relative;
+		left: 0px;
+		text-align: center;
+	}
+
+	main .sec2 .con5{
+		position: relative;
+		top: -30px;
+		left: -5px;
+		margin-top: 30px;
+	}
+
+	main .sec3{
+		display: flex;
+		flex-direction: column-reverse;
+		width: 90%;
+		position: relative;
+		left: -80px;
+	}
+
+	main .sec3 h3{
+		text-transform: capitalize;
+		font-family: arial;
+		font-size: 1.2em;
+	}
+
+	main section .con7 img{
+		width: 250px;
+		height: 200px;
+		position: relative;
+		left: 50px;
+	}
+
+	main section .con6 p{
+		font-size: 13px;
+		font-family: arial;
+	}
+
+	main section .con6{
+		text-align: center;
+		margin-right: 30px;
+	}
+
+	main .sec4{
+		width: 90%;
+		position: relative;
+		right: 280px;
+	}
+
+	main .sec4 .con9 a{
+		width: 70%;
+		padding-top: 20px;
+		padding-bottom: 20px ;
+		position: relative;
+		left: 45px;
+	}
+
+	.bigcon{
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer section .links{
+		position: relative;
+		top: -10px;
+		left: -20px;
+		width: 90%;
+		flex-direction: column;
+	}
+
+	footer .bigcon .links3{
+		position: relative;
+		top: -10px;
+		left: 90px;
+		width: 70%;
+	}
+
+	.copy{
+		font-size: 12px;
+	}
+}
+
+
+
